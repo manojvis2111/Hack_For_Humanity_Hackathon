@@ -1,0 +1,31 @@
+/* src/index.css */
+.outer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  background-color: #F4F1DE;
+  color: #47663B;
+
+}
+
+
+
+.inner {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex: 1 1 0%;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  color: #DA8556;
+}
+
+h1{
+  font-weight: 700;
+  font-size: 6rem;
+  line-height: 1;
+  text-align: center;
+}
