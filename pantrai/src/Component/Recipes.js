@@ -1,12 +1,12 @@
 import React from 'react';
 import '../Styles/section.css';
- 
-const Inventory = () => {
+
+const Recipes = () => {
     return (
         <div class='section'>
-            <h1>Inventory</h1>
+            <h1>Recipes</h1>
         </div>
     );
 };
 
-export default Inventory;
+export default Recipes;

@@ -1,0 +1,41 @@
+.box{
+    border: 3px solid #1f4529;
+    background-color: #E8ECD7;
+    width: 35vw;
+    height: 35vh;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.input{
+    width: 60%;
+    height: 28px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #1f4529;
+}
+
+.button{
+    width: 60%;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #f0daa9;
+    border: 1px solid #1f4529;
+    font-size: 15px;
+
+}
+.Poppins{
+    font-family: 'Poppins', sans-serif;
+}
+
+.Inter{
+    font-family: 'Inter', sans-serif;
+}
+html{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EED3B1;
+}
