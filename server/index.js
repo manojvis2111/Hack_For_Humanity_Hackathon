@@ -4,6 +4,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const itemRoute = require('./routes/item_route.js');
+const userRoute = require('./routes/userdata_route.js');
 const cors = require('cors');
 
 
@@ -17,6 +18,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use("/api", itemRoute);
+app.use("/userdata", userRoute);
 
 app.listen(3000, () => {
   console.log('Server is running on port 3000');

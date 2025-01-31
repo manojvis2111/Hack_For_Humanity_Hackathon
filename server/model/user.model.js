@@ -18,10 +18,9 @@ ingredients: [{
     SVGfilepath: { type: String, required: true }, // Path to the SVG file
     quantity: { type: Number, required: true }, // Quantity of the ingredient
     unit: { type: String, required: true }, // Unit of measurement (e.g., grams, liters)
-    shelfLife: { type: Date, required: true } // Expiry date or best-before date
-}],
-
+    shelfLife: { type: Number, required: true } // Expiry date or best-before date
+}]
 });
 
 const User = mongoose.model("User", userSchema);
-export default User;
+module.exports = User;
