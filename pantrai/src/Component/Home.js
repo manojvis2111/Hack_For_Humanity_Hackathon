@@ -27,7 +27,7 @@ const Home = () => {
         <div className='outer'>
             <Welcome username={username}/>
             <Inventory username={username}/>
-            {/* <Recipes username={username}/> */}
+            <Recipes username={username}/>
         </div>
     );
 };
