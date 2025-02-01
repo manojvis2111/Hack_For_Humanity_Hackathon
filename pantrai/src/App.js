@@ -7,15 +7,15 @@ import Login from './Component/Login.js';
 import Test from './Component/Test.js';
 function App() {
   return (
-    //   <Router>
-    //   <div className="App">
-    //     <Routes>
-    //       <Route path="/" element={<Login />} />
-    //       <Route path="/home" element={<Home />} />
-    //     </Routes>
-    //   </div>
-    // </Router>
-    <Test></Test>
+      <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<Login />} />
+          <Route path="/home" element={<Home />} />
+        </Routes>
+      </div>
+    </Router>
+    // <Test></Test>
       
     // </div>
   );

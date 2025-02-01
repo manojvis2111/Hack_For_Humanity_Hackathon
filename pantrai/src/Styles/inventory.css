@@ -1,0 +1,27 @@
+.inventory {
+    /* display: grid; Use CSS Grid */
+    /* grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); Define the number of columns */
+    /* gap: 16px; Add some space between the items */
+    /* overflow-x: auto; Enable horizontal scrolling if needed */
+    /* padding: 16px; Add some padding around the grid */
+    /* min-height: 100vh; */
+    /* width: 100vw; */
+    /* background-color: #f9f9f9; */
+    display: grid; /* Use CSS Grid */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Define the number of columns */
+    /* grid-auto-rows: minmax(100px, auto); Ensure rows have a minimum height and can stretch */
+    gap: 36px; /* Add some space between the items */
+    /* padding: 5px; Add some padding around the grid */
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    min-height: 60vh; /* Ensure each section has a minimum height */
+    width: 100vw;
+    overflow: auto;
+}
+
+.inventory-title {
+    grid-column: 1 / -1; /* Make the title span all columns */
+    text-align: left; /* Align the title to the left */
+    font-size: 24px; /* Adjust the font size */
+    margin-bottom: 5px; /* Add some space below the title */
+}

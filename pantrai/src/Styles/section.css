@@ -1,9 +1,11 @@
 .section {
     width: 100vw;
-    /* max-width: 800px; */
-    /* margin: 20px 0; */
-    /* padding: 20px; */
-    /* border: 1px solid #ccc; */
+    /* overflow-y: auto; */
+    overflow-x: auto;
+    /* display: grid; Use CSS Grid */
+    /* grid-template-columns: repeat(auto-fill, minmax(550px, 2fr)); Define the number of columns */
+    /* gap: 16px; Add some space between the items */
+    padding: 16px; /* Add some padding around the grid */
     border-radius: 8px;
     background-color: #f9f9f9;
     min-height: 100vh; /* Ensure each section has a minimum height */

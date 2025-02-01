@@ -13,6 +13,10 @@ streak: {
     type: Number,
     required: true
 },
+last_login: {
+    type: Date,
+    required: true
+},
 ingredients: [{
     name: { type: String, required: true },  // Name of the ingredient
     SVGfilepath: { type: String, required: true }, // Path to the SVG file

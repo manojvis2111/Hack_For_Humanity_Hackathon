@@ -1,0 +1,38 @@
+.recipes {
+    display: grid; /* Use CSS Grid */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Define the number of columns */
+    gap: 36px; /* Add some space between the items */
+    border-radius: 8px;
+    background-color: #eed3b1;
+    min-height: 60vh; /* Ensure each section has a minimum height */
+    width: 100vw;
+    overflow: auto;
+
+}
+
+.recipe-title {
+    grid-column: 1 / -1; /* Make the title span all columns */
+    text-align: left; /* Align the title to the left */
+    font-size: 24px; /* Adjust the font size */
+    margin-bottom: 5px; /* Add some space below the title */
+}
+
+.recipe-card {
+    background-color: #e8ecd7;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%; /* Ensure the item fits within the grid cell */
+    height: 100%; /* Ensure the item fits within the grid cell */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.recipe-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
